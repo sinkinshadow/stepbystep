@@ -1,0 +1,263 @@
+
+
+body{
+    font-family: "Helvetica Neue", Helvetica;
+    width: 961px;
+    height: 851px;
+    margin: 50px auto 20px auto;
+    min-height: 100%;
+ 
+}
+
+.coll {
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    left: 15px;
+    box-sizing: border-box;
+    padding: 2px;
+    float: left
+}
+
+.rex {
+    text-transform: uppercase;
+    font-size: 35px;
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+    box-sizing: border-box;
+    position: relative;
+    left:15px;
+    
+    float: left
+ 
+    
+}
+
+.naglowek
+{
+    display: flex;
+   justify-content: flex-end;
+    }
+
+#koszyk
+{
+    width: 50px;
+    background-color: #27b814;
+    font-size: 12px;   
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px; 
+    white-space: nowrap;
+    color: white;
+}
+#numer_telefonu {
+    padding: 5px;
+    margin: 5px;
+}
+#mail {
+    padding: 5px;
+    margin: 5px;
+    margin-right: 60px;
+}
+
+
+ul#menu li  {
+    display: inline;
+      
+}
+
+.styles{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    text-transform: capitalize;
+    text-align: center; 
+}
+
+.lista {
+    text-align: center;
+    color: #000000;
+    line-height: 1em;
+    object-fit: contain;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: auto;   
+}
+#oferta{
+    object-fit: contain;
+}
+#oferta:hover {
+    opacity: 0.8;
+    background-color: blue !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.fas {
+    color: orange;
+}
+
+.tytul{
+    font-size: 40px;
+    column-span: 2;
+    position:absolute;
+   
+}
+
+.farby {
+        z-index: 1;
+        top: 0;
+        width: 400px;
+        overflow-wrap: normal;
+        position: relative;
+        text-align: justify;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        padding-top: 70px;
+        
+       
+      
+}
+
+#farbki {
+    width: 400px;
+    height: 300px;
+}
+
+
+
+.kolumna_1 {
+    column-count: 3;
+    column-rule-width: 3px;
+    column-gap: 3px;
+    position: absolute;
+    
+    
+    
+}
+
+.opis2{
+    font-size: 13px;
+    
+    text-align: justify;
+    
+}
+
+.kolumna2{
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding-left: 50px;
+    padding-top: 100px;
+        
+       
+}
+
+.ilosc{
+    width: 5%;
+    text-align: center
+}
+
+.ilosc, .dodaj_do_koszyka_button, .cena{
+    display: inline;
+    
+}
+
+
+.produkt{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 250px;
+    padding-left: 25px;
+   
+    
+}
+
+
+.kolumna3{
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.stopka a{
+    text-transform: none;
+}
+
+
+.img{
+    height: auto;
+    max-width: 100%;
+    
+}
+
+form {
+    margin-left: 20px;
+    
+}
+
+.linia{
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+
+.kup{
+    position: relative;
+   
+
+}
+
+.dodaj_do_koszyka_button:hover
+
+{
+    background-color:#2F4766;
+    border-radius: 4px;
+}
+
+.dodaj_do_koszyka_button{
+    border-radius: 4px;
+    background-color: #27b814;
+}
+
+#serce{
+    color: red;
+}
+
+.stopka{
+    
+    width: 100%; 
+    margin-left: 850px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+
+#page-container {
+    position: relative;
+    min-height: 115vh;
+  }
+  
+  
