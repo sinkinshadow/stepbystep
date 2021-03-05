@@ -1,0 +1,268 @@
+html{
+    background-color: #DCDEE1;
+}
+ body {
+    font-family: 'Helvetica Neue', Helvetica;
+    width: 961px;
+    height: 851px; 
+    margin: 50px auto 20px auto;
+    background-color: white;
+  }
+   
+  .coll {
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: orange;
+    color: white;
+    left: 15px;
+    box-sizing: border-box;
+    padding: 2px;
+    float: left;
+  }
+   
+  .rex {
+    text-transform: uppercase;
+    font-size: 35px;
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+    box-sizing: border-box;
+    left: 15px;
+   
+    float: left;
+  }
+   
+  .naglowek {
+    display: flex;
+    justify-content: flex-end;
+  }
+   
+  #koszyk {
+    width: 60px;
+    background-color: #27b814;
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    color: white;
+    display:flex;
+    justify-content: center;
+  }
+
+  #bialy
+  {
+      color:white;
+      padding-right: 5px;
+      
+  }
+  #numer_telefonu {
+    padding: 5px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-right:10px;
+  }
+  #mail {
+    padding: 5px;
+    margin: 5px;
+    margin-right: 60px;
+    padding-top: 10px;
+  }
+   
+  ul#menu li {
+    display: inline;
+  }
+   
+  .styles {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+   
+  .lista {
+    text-align: center;
+    color: #000000;
+    line-height: 1em;
+    object-fit: contain;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: auto;
+  }
+ 
+  #oferta:hover {
+    opacity: 0.8;
+    background-color: blue !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+  }
+  li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+   
+  .fas {
+    color: orange;
+  }
+   
+  .tytul {
+    font-size:40px;
+    margin-left:25px;
+   
+  }
+   
+  .farby {
+    z-index: 1;
+    top: 0;
+    width: 400px;
+    overflow-wrap: normal;
+    text-align: justify;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    
+  }
+   
+  #farbki {
+    width: 375px;
+    height: 350px;
+    margin-left: 25px;
+  }
+   
+  .kolumna1 {
+   
+    flex-grow: 1;
+  }
+   
+  .opis {
+      margin-top: 0;
+      margin-left: 25px;
+  }
+   
+  .opis2 {
+    font-size: 13px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+   
+  .kolumna2 {
+    
+    flex-grow: 1;
+  }
+   
+  .ilosc {
+    width: 15%;
+    text-align: center;
+  }
+   
+  .ilosc,
+  .dodaj_do_koszyka_button,
+  .cena {
+    display: inline;
+  }
+  
+  .produkt {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 230px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+  }
+   
+  .kolumna3 {
+    
+    flex-grow: 1;
+  }
+   
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+   
+  .stopka a {
+    text-transform: none;
+  }
+   
+  .img {
+    height: auto;
+    max-width: 100%;
+    padding-top:10px;
+  }
+   
+  form {
+    margin-left: 20px;
+  }
+   
+  .linia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+  }
+   
+ 
+   .cena{
+    flex-shrink: 0;
+    font-weight: bold;
+   }
+
+  .dodaj_do_koszyka_button:hover {
+    background-color: #2f4766;
+    border-radius: 4px;
+  }
+   
+  .dodaj_do_koszyka_button {
+    border-radius: 4px;
+    background-color: #27b814;
+    color: white;
+    margin-left: -5.5px;
+  }
+   
+  #serce {
+    color: red;
+    margin:2px;
+    
+  }
+   
+  .stopka {
+    width: 100%;
+    font-size: 12px;
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 2.5rem; 
+  }
+   
+  
+   
+  #tabela {
+    display: flex;
+    justify-content: space-between;
+    max-width: 961px;
+    width: 100%;
+  }
+   
+  #content-wrap {
+    min-height: calc(100vh - 101px);
+}
+
+ .footerstart, 
+ .on,
+ .assesment {
+    margin:2px;
+ }
+
+ .top{
+     font-size:13px;
+ }
+ 
+ .link{
+    color: #4383AF;
+ }
