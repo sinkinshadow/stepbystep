@@ -81,10 +81,11 @@ ul#menu li {
   border-width: 1px;
   text-transform: capitalize;
   text-align: center;
+  display: inline;
 }
 
 .listitem {
-  text-align: center;
+ 
   color: #000000;
   line-height: 1em;
   object-fit: contain;
@@ -93,6 +94,7 @@ ul#menu li {
   padding-right: 5%;
   padding-left: 5%;
   width: auto;
+  flex-grow:3;
 }
 
 #oferta:hover {
