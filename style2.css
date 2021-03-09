@@ -10,6 +10,9 @@ body {
   background-color: white;
 }
 
+.main {
+  display: flex;
+}
 .coll {
   text-transform: uppercase;
   font-size: 35px;
