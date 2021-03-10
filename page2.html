@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Assesment Center - zadanie HTML/CSS
+  </title>
+  <script src="https://kit.fontawesome.com/f27151dfe1.js" crossorigin="anonymous" rel="stylesheet"></script>
+  <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+  <header class="naglowek2">
+    <span class="coll">col</span><span class="rex">rex</span>
+    <div class="naglowek">
+      <span id="mail"><i class="fas fa-envelope" title="Edit"></i>kontakt@colrex.pl</span>
+      <span id="numer_telefonu"><i class="fas fa-phone" title="Edit"></i>500 123 456</span>
+      <span id="koszyk"> <i id="bialy" class="fas fa-cart-arrow-down" title="Edit"></i> 0,00 zł </span>
+    </div>
+  </header>
+  <nav class="menu">
+    <div class="styles">
+      <ul id="menu">
+        <li class="lista">O nas</li>
+        <li class="lista" id="oferta">oferta</li>
+        <li class="lista">wysyłka</li>
+        <li class="lista">realizacje</li>
+        <li class="lista">zasięg</li>
+        <li class="lista">kontakt</li>
+      </ul>
+    </div>
+  </nav>
+  <div id="content-wrap">
+    <h1 class="tytul">Color at durabitur laoreet</h1>
+    <div id="tabela">
+      <div class="kolumna1">
+        <div class="farby">
+          <p class="opis">
+            Lorem ipsum dolor sit amet consectetur
+            dolor quam tortor lorem urna Pellentesque enim at adipscing Sed
+            ac vestibulum commodo vel sem enim. Sit agestas eros felis Sed cursus
+            nunc congue molestie Curabitur hendrerit. Sit quis quis vitae laoreet quis
+            Curabitur dolor at Curabitur laoreet. Sed nunc eu nascetur
+            dui nunc augue Quisque euismod ipsum. Vel velit nec rhoncus nibh facilisi
+            sagittis. Vestibulum Ut Proin sit Aenean
+          </p>
+          <img id="farbki" src="farby.jpg" alt="tu powinno być zdjęcie farb do malowania" />
+          <p class="opis">
+            Sit egestas eros felis Sed cursus nunc congue
+            molestie Curabitur hendrerit. Sit quis quis vitae laoreet quis Curabitur dolor at Curabitur
+            laoreet
+          </p>
+        </div>
+      </div>
+      <div class="kolumna2">
+        <div class="produkt">
+          <img class="img" src="tubki.jpg" alt="zdjęcie tubek z farbą">
+          <p class="top"><a class="link" href="#">
+              cursus nunc congue
+            </a>
+          </p>
+          <p class="opis2">
+            Pallentesque enim at adipiscing sed ac vestibulum
+            commodo vel sem enim...
+          </p>
+          <div class="linia">
+            <label for="cena" class="cena">37,30 zł</label>
+            <div class="kup">
+              <form action="#" method="POST">
+                <div class="input">
+                  <input class="ilosc" type="text" />
+                  <button class="dodaj_do_koszyka_button" type="submit">Do koszyka</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="produkt" id="paleta">
+          <img class="img" src="paleta.jpg" alt="zdjęcie palety barw">
+          <p class="top">
+            <a class="link" href="#">
+              curabitur laoreet
+            </a>
+          </p>
+          <p class="opis2">
+            Sit agestas eros felis Sed cursus nunc congue molestie Curabitur hendrerit...
+          </p>
+          <div class="linia">
+            <label for="cena" class="cena">99,70 zł</label>
+            <div class="kup">
+              <form action="#" method="POST">
+                <div class="input">
+                  <input class="ilosc" type="text" />
+                  <button class="dodaj_do_koszyka_button" type="submit">Do koszyka</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="kolumna3">
+        <div class="produkt">
+          <img class="img" src="farby2.jpg" alt="zdjęcie farbek">
+          <p class="top">
+            <a class="link" href="#">
+              quis quis vitae laoreet
+            </a>
+          </p>
+          <p class="opis2">
+            Psit amet consectetur dolor quam tortor lorem urna mmodo vel sem en...
+          </p>
+          <div class="linia">
+            <label for="cena" class="cena">13,20 zł</label>
+            <form action="#" method="POST">
+              <div class="kup">
+                <input class="ilosc" type="text" />
+                <button class="dodaj_do_koszyka_button" type="submit">Do koszyka</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="stopka">
+    <span class="footerstart">created with</span> <i class="fas fa-heart" id="serce"></i> <span class="on">on </span> <a
+      class="assesment" class="link" href> assessment center</a></span>
+  </footer>
+</body>
+
+</html>

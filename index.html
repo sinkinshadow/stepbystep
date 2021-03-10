@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Assesment Center - zadanie HTML/CSS
+  </title>
+  <script src="https://kit.fontawesome.com/f27151dfe1.js" crossorigin="anonymous" rel="stylesheet"></script>
+  <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <div class="header2">
+        <span class="coll">col</span>
+        <span class="rex">rex</span>
+        <div class="header">
+          <span id="mail"><i class="fas fa-envelope" title="Edit"></i>kontakt@colrex.pl</span>
+          <span id="phone_num"><i class="fas fa-phone" title="Edit"></i>500 123 456</span>
+          <span id="cart"> <i class="fas fa-cart-arrow-down" id="white" title="Edit"></i> 0,00 zł </span>
+        </div>
+      </div>
+      <header class="menu">
+        <div class="styles">
+          <ul id="menu">
+            <li class="listitem">O nas</li>
+            <li class="listitem" id="offer">oferta</li>
+            <li class="listitem">wysyłka</li>
+            <li class="listitem">realizacje</li>
+            <li class="listitem">zasięg</li>
+            <li class="listitem">kontakt</li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section class="column_1">
+          <div class="left_side">
+            <h1 class="tittle">
+              Color at durabitur laoreet</h1>
+            </p>
+            <div class="paintings">
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur
+                dolor quam tortor lorem urna Pellentesque enim at adipscing Sed
+                ac vestibulum commodo vel sem enim. Sit agestas eros felis Sed cursus
+                nunc congue molestie Curabitur hendrerit. Sit quis quis vitae laoreet quis
+                Curabitur dolor at Curabitur laoreet. Sed nunc eu nascetur
+                dui nunc augue Quisque euismod ipsum. Vel velit nec rhoncus nibh facilisi
+                sagittis. Vestibulum Ut Proin sit Aenean
+              </p>
+              <img id="paintings_2" src="farby.jpg" alt="tu powinno być zdjęcie farb do malowania">
+              <p class="description">
+                Sit egestas eros felis Sed cursus nunc congue
+                molestie Curabitur hendrerit. Sit quis quis vitae laoreet quis Curabitur dolor at Curabitur
+                laoreet
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="column_2">
+          <div class="product">
+            <img class="img" src="tubki.jpg" alt="zdjęcie tubek z farbą">
+            <p class="top"><a href="#">
+                cursus nunc congue
+              </a>
+            </p>
+            <p class="description_2">
+              Pallentesque enim at adipiscing sed ac vestibulum
+              commodo vel sem enim...
+            </p>
+            <div class="line">
+              <label for="price">37,30 zł</label>
+              <div class="buy">
+                <form action="#" method="POST">
+                  <span class="input">
+                    <input class="quantity" type="text"
+                      onkeypress='return event.charCode >= 48 && event.charCode <= 57'></input>
+
+                    <button class="add_to_cart_btn" type="submit">Do koszyka</button>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <img class="img" src="paleta.jpg" alt="zdjęcie palety barw">
+            <p class="top"><a href="#">
+                curabitur laoreet
+              </a>
+            </p>
+            <p class="description_2">
+              Sit agestas eros felis Sed cursus nunc congue molestie Curabitur hendrerit...
+            </p>
+            <div class="line">
+              <label for="price">99,70 zł</label>
+              <div class="buy">
+                <form action="#" method="POST">
+                  <span class="input">
+                    <input class="quantity" type="text"
+                      onkeypress='return event.charCode >= 48 && event.charCode <= 57'></input>
+
+                    <button class="add_to_cart_btn" type="submit">Do koszyka</button>
+
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="column_3">
+          <div class="product">
+            <img class="img" src="farby2.jpg" alt="zdjęcie farbek">
+            <p class="top"><a href="#">
+                quis quis vitae laoreet
+            </p></a>
+            <p class="description_2">
+              Psit amet consectetur dolor quam tortor lorem urna mmodo vel sem en...
+            </p>
+            <div class="line">
+              <label for="price">13,20 zł</label>
+              <form action="#" method="POST">
+                <div class="buy">
+                  <input class="quantity" type="text"
+                    onkeypress='return event.charCode >= 48 && event.charCode <= 57'></input>
+                  <button class="add_to_cart_btn" type="submit">Do koszyka</button>
+                </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <footer class="footer">
+    created with <i class="fas fa-heart" id="heart"></i> on <a class ="asses_cent" href> assessment center</a>
+  </footer>
+  </div>
+</body>
+
+</html>
