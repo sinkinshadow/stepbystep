@@ -95,7 +95,7 @@ body {
   flex-grow:3;
 }
 
-#offer:hover {
+.offer:hover {
   opacity: 0.8;
   background-color: blue ;
  
@@ -211,7 +211,7 @@ form {
   margin-left: -5.5px;
 }
 
-#heart {
+.heart {
   color: red;
   margin: 2px;
 }
@@ -236,11 +236,7 @@ form {
   min-height: calc(100vh - 101px);
 }
 
-.footerstart,
-.on,
-.assesment {
-  margin: 2px;
-}
+
 
 .top {
   font-size: 13px;
