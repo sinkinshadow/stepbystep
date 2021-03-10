@@ -36,12 +36,12 @@ body {
   float: left;
 }
 
-.naglowek {
+.header {
   display: flex;
   justify-content: flex-end;
 }
 
-#koszyk {
+#cart {
   width: 60px;
   background-color: #27b814;
   font-size: 12px;
@@ -55,12 +55,12 @@ body {
   justify-content: center;
 }
 
-#bialy {
+#white {
   color: white;
   padding-right: 5px;
 }
 
-#numer_telefonu {
+#phone_num {
   padding: 5px;
   margin: 5px;
   padding-top: 10px;
@@ -100,7 +100,7 @@ ul#menu li {
   flex-grow:3;
 }
 
-#oferta:hover {
+#offer:hover {
   opacity: 0.8;
   background-color: blue !important;
   padding-right: 5%;
@@ -119,12 +119,12 @@ li:last-child {
   color: orange;
 }
 
-.tytul {
+.tittle {
   font-size: 40px;
   margin-left: 25px;
 }
 
-.farby {
+.paintings {
   z-index: 1;
   top: 0;
   width: 400px;
@@ -135,43 +135,43 @@ li:last-child {
   break-inside: avoid;
 }
 
-#farbki {
+#paintings_2 {
   width: 375px;
   height: 350px;
   margin-left: 25px;
 }
 
-.kolumna1 {
+.column_1 {
   flex-grow: 1;
 }
 
-.opis {
+.description {
   margin-top: 0;
   margin-left: 25px;
 }
 
-.opis2 {
+.description_2 {
   font-size: 13px;
   padding-right: 20px;
   text-align: justify;
 }
 
-.kolumna2 {
+.column_2 {
   flex-grow: 1;
 }
 
-.ilosc {
+.quantity {
   width: 15%;
   text-align: center;
 }
 
-.ilosc,
-.dodaj_do_koszyka_button,
-.cena {
+.quantity,
+.add_to_cart_btn,
+.price {
   display: inline;
 }
 
-.produkt {
+.product {
   border: 1px solid black;
   box-sizing: border-box;
   width: 230px;
@@ -179,17 +179,13 @@ li:last-child {
   padding-bottom: 5px;
 }
 
-.kolumna3 {
+.column_3 {
   flex-grow: 1;
 }
 
 a {
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.stopka a {
-  text-transform: none;
 }
 
 .img {
@@ -202,35 +198,35 @@ form {
   margin-left: 20px;
 }
 
-.linia {
+.line {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
 }
 
-.cena {
+.price {
   flex-shrink: 0;
   font-weight: bold;
 }
 
-.dodaj_do_koszyka_button:hover {
+.add_to_cart_btn:hover {
   background-color: #2f4766;
   border-radius: 4px;
 }
 
-.dodaj_do_koszyka_button {
+.add_to_cart_btn {
   border-radius: 4px;
   background-color: #27b814;
   color: white;
   margin-left: -5.5px;
 }
 
-#serce {
+#heart {
   color: red;
   margin: 2px;
 }
 
-.stopka {
+.footer {
   width: 100%;
   font-size: 12px;
   display: flex;
@@ -262,4 +258,8 @@ form {
 
 .link {
   color: #4383af;
+}
+
+.asses_cent {
+  text-transform: lowercase;
 }
