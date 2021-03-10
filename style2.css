@@ -1,13 +1,12 @@
-html {
-  background-color: #dcdee1;
-}
-
 body {
   font-family: "Helvetica Neue", Helvetica;
-  width: 961px;
-  height: 851px;
-  margin: 50px auto 20px auto;
   background-color: white;
+}
+
+.content-wrap {
+  width: 961px;
+  margin: 0 auto;
+  padding: 50px 0 0;
 }
 
 .main {
@@ -69,7 +68,7 @@ body {
   padding: 15px 15px 15px 5px;
 }
 
-#menu{
+.top_menu_container{
   display: flex;
 }
 
@@ -231,12 +230,6 @@ form {
   max-width: 961px;
   width: 100%;
 }
-
-.content-wrap {
-  min-height: calc(100vh - 101px);
-}
-
-
 
 .top {
   font-size: 13px;
