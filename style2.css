@@ -41,7 +41,7 @@ body {
   justify-content: flex-end;
 }
 
-#cart {
+.cart {
   width: 60px;
   background-color: #27b814;
   font-size: 12px;
@@ -52,25 +52,25 @@ body {
   justify-content: center;
 }
 
-#white {
+.white {
   color: white;
   padding-right: 5px;
 }
 
-#phone_num {
+.phone_num {
   margin: 5px;
   padding: 15px 15px 15px 5px;
   
 }
 
-#mail {
+.mail {
   margin: 5px;
   margin-right: 60px;
   padding: 15px 15px 15px 5px;
 }
 
-ul#menu li {
-  display: inline;
+#menu{
+  display: flex;
 }
 
 .styles {
@@ -79,7 +79,7 @@ ul#menu li {
   border-width: 1px;
   text-transform: capitalize;
   text-align: center;
-  display: inline;
+  flex-direction: row;
 }
 
 .listitem {
@@ -97,8 +97,8 @@ ul#menu li {
 
 #offer:hover {
   opacity: 0.8;
-  background-color: blue !important;
-  padding: 16px 45px 16px 45px;
+  background-color: blue ;
+ 
   color: white;
 }
 
@@ -127,7 +127,7 @@ li:last-child {
   break-inside: avoid;
 }
 
-#paintings_2 {
+.paintings_2 {
   width: 375px;
   height: 350px;
   margin-left: 25px;
@@ -234,7 +234,7 @@ form {
   width: 100%;
 }
 
-#content-wrap {
+.content-wrap {
   min-height: calc(100vh - 101px);
 }
 
